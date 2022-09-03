@@ -1,0 +1,708 @@
+html{
+    height:100%;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.bodyContainer{
+  background-position: center;
+  background-image: url(./images/daisySatOnBath.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -999;
+
+}
+.mainPageContainer{
+  font-family: 'Fuzzy Bubbles', cursive;
+
+}
+.aboutPageBody{
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-position: center;
+}
+.about3Body{
+  background-image: linear-gradient(to right, rgba(0,0,0,0) 52%,rgba(0,0,0,0.2) 87%),  url('./images/daisyMirror1smaller.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -999;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  background-position: unset ; 
+
+
+}
+.aboutPageContainer{
+  font-family: 'Fuzzy Bubbles', cursive;
+
+}
+.firstpage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconsSide{
+    display: inline-grid;
+    position: fixed;
+    color: white;
+    
+}
+.socialMediaIcons{
+  color: white;
+  transform: scale(1.5);
+  margin-bottom: 3rem;
+  z-index: 99;
+}
+.socialMediaIconsSmall{
+  margin-bottom: 1rem;
+}
+.socialMediaIconsContainerSmall{
+  width: 12rem;
+  margin-bottom:0rem !important;
+}
+.navTextContainerSmall{
+  background-color: rgb(255 255 255 / 90%) !important;
+  border-radius: 10px;
+  width: fit-content !important;
+}    
+.socialMediaIconsAlternate{
+  color: white;
+ transform: scale(2);
+ margin-bottom: 48px;
+ z-index: 99;
+}
+.socialMediaIcons:hover {
+    color: grey;
+  }
+
+.navbar{
+  position: fixed;
+  width: 40rem;
+  top: 0.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+   color: rgb(255, 255, 255)
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.25rem !important;
+  color: rgba(0,0,0, 0);
+}
+.navbar-nav{
+  margin-left: 4rem;
+}
+.navbar-nav-small{
+  width: 0rem;
+}
+a:focus, a:hover {
+  text-decoration: none; 
+}
+.sideNav{
+  height: 100%;
+  width: 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5rem;
+}
+.secondPartOfHome{
+    background-color: #000000; 
+    margin-bottom: 80px;
+}
+
+.nameFirstBox{
+  margin-left: 30%;
+}
+.titleBox{
+    font-size: 50px !important;
+}
+.nameBox{
+    font-size: 85px;
+    margin-right: 1%;
+
+}
+.titleBox{
+    font-size: 70px;
+}
+
+.navOnScroll{
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+}
+/* YOUTUBE VIDEO SECTION  */
+.musicHeader{
+    font-size: 60px;
+    color: white;
+}
+.youtubeVideoBanner{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallScreenMarginTop{
+  margin-top: 4rem !important;
+}
+button {
+  border: none;
+  background: none;
+  outline: 0;
+  padding: 50px;
+}
+/* NAVBAR FOR ALL PAGES */
+.nav{
+    background-color: rgba(190, 186, 186, 0);
+    font-size: 20px;
+    height: 80px;
+}
+.nav-link{
+    color: white;
+    border: 5%;
+    font-size: medium;
+}
+.nav-link:hover{
+    background-color: transparent !important;
+    color: white;
+    font-weight: bold;
+
+    border: 5%;
+}
+.nav-item:hover{
+    background-color: transparent !important;
+    color: white;
+    font-weight: bold;
+    border: 5%;
+}
+.nav-link:focus{
+    background-color: transparent !important;
+    color: white;
+    font-weight: bold;
+
+    border: 5%;
+}
+.nav-item:focus{
+    background-color: transparent !important;
+    color: white;
+    font-weight: bold;
+    border: 5%;
+}
+
+
+.daisyLogo{
+    border-radius: 100%;
+    max-height: 80px;
+}
+
+/* END OF NAVBAR */
+
+/* END OF HOMEPAGE */
+.textShadow{
+text-shadow: 1px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000 !important;
+}
+.textShadow2{
+  text-shadow: 0.5px 0 0 #000, 0.5px 0 0 #000, 0 0.5px 0 #000, 0 0.5px 0 #000, 0.5px 0.5px #000, 0.5px 0.5px 0 #000, 0p.5x 0.5px 0 #000, 0.5px 0.5px 0 #000 !important
+}
+.iconstextShadow{
+    text-shadow: 0px 0 0 #000, 0px 0 0 #000, 0 0px 0 #000, 0 0px 0 #000, 0px 0px #000, 0px 0px 0 #000, 0px 0px 0 #000, 0px 1px 0 #000 !important;
+}
+.removingTextShadow{
+  text-shadow: none !important;
+  color: black !important;
+}
+/* ABOUT ME PAGE  */
+.aboutPageBody{
+    background-color: #8b94a3 !important;
+    height: 100%;
+}
+
+ .aboutTextContainerLarge{
+  margin-left: 10%;
+  margin-top: 3rem;
+    margin-top: 7%;
+}
+
+.aboutTextContainerSmall{
+  margin-left: 4rem;
+  margin-top: 7%;
+}
+
+.overlayText{
+  background-color: rgb(0 0 0 / 50%);
+  color: white;
+  border-radius: 25px;
+    margin-top: 10%;
+  z-index: -1;
+  box-shadow: 0 16px 60px rgb(0 0 0 / 50%);
+}
+.upcomingGigsText{
+  background-color: rgb(0 0 0 / 50%);
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+  height: fit-content;
+}
+.fontSizeChangeP{
+  font-size: 15px;
+}
+.smallScreenMargin{
+  margin-top: 3rem !important;
+}
+.daisyImageOverlay{
+    transform: scaleX(-1);
+    left: 20%;
+    position: absolute;
+    top: 10vh;
+    height: 500px;
+    width: 400px;
+}
+/* END OF ABOUT ME */
+
+/* FOOTER FOR ALL PAGES */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footerContent{
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    display: flex;
+
+}
+.navbar-light .navbar-nav .nav-link {
+ color: white;
+}
+/* END OF FOOTER */
+
+.navBarScrollBackground{
+  background: black;
+    width: 100%;
+    top: 0;
+}
+
+/* CONTACT PAGE  */
+.contact2Body{
+  background-image: linear-gradient(to right, rgba(0,0,0,0) 52%,rgba(0,0,0,0.2) 87%),  url('./images/daisySatAtTable2Reverse2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover; 
+}
+.contactPageContainer{
+  font-family: 'Fuzzy Bubbles', cursive;
+
+}
+.contactForm{
+    background: #929786;
+    border-radius: 5%;
+    font-family: cursive;
+}
+.formFontSize{
+  font-size: 14px;
+}
+.contactFormBackground{
+    background-color: rgb(124, 124, 124);
+    border-radius: 5%;
+}
+.contactFormRow{
+  background: rgb(0 0 0 / 7%);
+  border-radius: 5%;
+  width: 30rem;
+  margin-left: 38%;
+  margin-top: 5rem;
+}
+.upcomingGigsPage {
+  border-radius: 5%;
+  width: 45%;
+  margin-left: 7rem;
+  margin-top: 6rem;
+}
+.removeMarginBottom{
+  margin-bottom: 0rem !important;
+}
+.heightOfIconContainer{
+  height: 7vh;
+}
+/* MEDIA QUERY */
+@media only screen and (max-width: 890px) {
+  .contactFormRow {
+    margin-top: 5rem;
+    width: 75%;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-left: 15%; 
+  }
+}
+@media only screen and (max-width: 530px) {
+  .contact2Body {
+     background-image: linear-gradient(to right, rgba(0,0,0,0) 52%,rgba(0,0,0,0.2) 87%), url(./images/contactPageSmallBG.png); 
+  }
+}
+
+
+@media only screen and (max-width: 637px) {
+  .upcomingGigsPageBody {
+    background-image: linear-gradient(to left, rgba(0,0,0,0) 52%,rgba(0,0,0,0.2) 87%),  url('./images/daisySatBathroomSmall2.jpg') !important; 
+   
+}
+}
+@media only screen and (max-width: 580px) {
+  .about3Body{
+    background-position: center;
+  }
+  .aboutTextContainerLarge{
+    margin-left: 15%;
+    margin-top:15%;
+  }
+  .overlayTextSmall{
+     margin-top: 0% !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .overlayText{
+     margin-top: 2% !important;
+  }
+}
+
+.widthFitContent{
+      width: fit-content;
+}
+  .navbar-nav-width-fit-content {
+    width: fit-content;
+  }
+
+  .navbar-nav-width-inherit {
+    /* margin-left: 4rem; */
+    width: inherit;
+  }
+
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px;
+}
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+}
+.rwd-table td:first-child {
+  padding-top: 0.5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: 0.5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th,
+.rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .rwd-table th,
+  .rwd-table td {
+    display: table-cell;
+    padding: 0.25em 0.5em;
+  }
+  .rwd-table th:first-child,
+  .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child,
+  .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+.rwd-table {
+  background-color: rgb(0 0 0 / 50%);
+    color: #fff;
+  border-radius: 0.4em;
+  overflow: hidden;
+
+}
+
+.rwd-table tr {
+  border-color:  #ffffff5e;;
+}
+.rwd-table th,
+.rwd-table td {
+  margin: 0.5em 1em;
+}
+@media (min-width: 480px) {
+  .rwd-table th,
+  .rwd-table td {
+    padding: 1em !important;
+  }
+}
+.rwd-table th,
+.rwd-table td:before {
+  color: #dd5;
+}
+
+/* Upcoming Gigs Sction */
+.upcomingGigsPageBody{
+  background-image: linear-gradient(to left, rgba(0,0,0,0) 52%,rgba(0,0,0,0.2) 87%),  url('./images/daisySatBathroomSmall2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -999;
+}
+.upcmoingPageContainer{
+  font-family: 'Fuzzy Bubbles', cursive;
+
+}
+.upcomingGigsTable{
+  background-color: rgba(255 255 255 / 40%);
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+.table-hover>tbody>tr:hover {
+  background-color: #ffffff;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+}
+h2 small {
+  font-size: 0.5em;
+}
+
+.responsive-table li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.responsive-table .table-header {
+  background-color: #95a5a6;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.responsive-table .table-row {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+.responsive-table .col-1 {
+  flex-basis: 10%;
+}
+.responsive-table .col-2 {
+  flex-basis: 40%;
+}
+.responsive-table .col-3 {
+  flex-basis: 25%;
+}
+.responsive-table .col-4 {
+  flex-basis: 25%;
+}
+@media all and (max-width: 767px) {
+  .responsive-table .table-header {
+    display: none;
+  }
+  .responsive-table li {
+    display: block;
+  }
+  .responsive-table .col {
+    flex-basis: 100%;
+  }
+  .responsive-table .col {
+    display: flex;
+    padding: 10px 0;
+  }
+  .responsive-table .col:before {
+    color: #6c7a89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+  }
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  cursor: pointer;
+}
+
+span + span {
+  margin-top: 14px;
+}
+
+.active span:nth-child(1) {
+  animation: ease .7s top forwards;
+}
+
+.not-active span:nth-child(1) {
+  animation: ease .7s top-2 forwards;
+}
+
+.active span:nth-child(2) {
+  animation: ease .7s scaled forwards;
+}
+
+.not-active span:nth-child(2) {
+  animation: ease .7s scaled-2 forwards;
+}
+
+.active span:nth-child(3) {
+  animation: ease .7s bottom forwards;
+}
+
+.not-active span:nth-child(3) {
+  animation: ease .7s bottom-2 forwards;
+}
+
+@keyframes top {
+  0% {
+    top: 0;
+    transform: rotate(0);
+  }
+  50% {
+    top: 22px;
+    transform: rotate(0);
+  }
+  100% {
+    top: 22px;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes top-2 {
+  0% {
+    top: 22px;
+    transform: rotate(45deg);
+  }
+  50% {
+    top: 22px;
+    transform: rotate(0deg);
+  }
+  100% {
+    top: 0;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes bottom {
+  0% {
+    bottom: 0;
+    transform: rotate(0);
+  }
+  50% {
+    bottom: 22px;
+    transform: rotate(0);
+  }
+  100% {
+    bottom: 22px;
+    transform: rotate(135deg);
+  }
+}
+
+@keyframes bottom-2 {
+  0% {
+    bottom: 22px;
+    transform: rotate(135deg);
+  }
+  50% {
+    bottom: 22px;
+    transform: rotate(0);
+  }
+  100% {
+    bottom: 0;
+    transform: rotate(0);
+  }
+}
+
+@keyframes scaled {
+  50% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes scaled-2 {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.newHoverAnimation {
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.newHoverAnimation:hover {
+  color: rgb(255, 255, 255);
+  width: fit-content;
+}
+
+.newHoverAnimation::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.newHoverAnimation:hover::before {
+  transform: scaleX(1);
+}
