@@ -97,57 +97,61 @@
         </div>        
     </div>
   </div>
-    <div class=" me-0 pe-0">
-        <div class="youtubeVideo d-flex row justify-content-center mb-2 me-0 pe-0 " style="margin-top: 6rem;">
-          <img src="./images/EPLaunchPoster.jpg" alt="EpLaunchCover" id="epLaunchBig" class="col-9 col-lg-5 col-md-6  mb-4">
-
-          <div class = "col-9 col-lg-4 row align-self-baseline">
-            <div class="upcomingGigsText ms-2">
-              <h3 class="mt-4 text-center mb-2" >Upcoming Gigs</h1>
-              <span class="aboutParagraphs"><p class="m-4" style="font-size: 15px;">Come down to the Bask, Stockport to watch the live launch of Daisy Valentine's new EP - Tabula Rasa. Details and tickets for this and  more below.</p>
-              </span>             
-          </div>
-        
-          <!-- <iframe width="450" height="315" class="mt-4 col-9 col-md-4" src="https://www.youtube.com/embed/sHgssOIZGWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-          <div class="col-12 mb-5">
-          <img src="./images/EPLaunchPoster.jpg" alt="EpLaunchCover" id="epLaunchSmall" class="col-12 mb-4 d-none">
-
-        <table class="rwd-table " id="gigsTable">
-          <tr>
-            <td data-th="Venue">The Bask</td>
-            <td data-th="City">Stockport</td>
-            <td data-th="Date">4th August</td>
-            <td data-th="Purchase"><a href="https://www.eventbrite.co.uk/e/daisy-valentine-tabula-rasa-ep-launch-tickets-381298091857" target="_blank">Tickets</a></td>
-          </tr>
-          <tr>
-            <td data-th="Venue">Pride <i class="fa-solid fa-rainbow"></i></td>
-            <td data-th="City">Manchester</td>
-            <td data-th="Date">27th August</td>
-            <td data-th="Purchase"><a href="https://www.manchesterpride.com/tickets" target="_blank">Tickets</a></td>
-          </tr>
-        </tr>
+  <div class="ms-lg-5 ms-4 w-100 row upcomingGigs1stRow upcomingGigs1stRowLG">
+    <div class="col-9 col-lg-6 ms-4" id="upcomingGigs1stRowContainer">
+      <div class="upcomingGigsText">
+        <h3 class="pt-3 text-center" >Upcoming Gigs</h1>
+        <span class="aboutParagraphs"><p class="m-4 pb-3" style="font-size: 15px;">Come down to the watch Daisy perform her new EP live at various venues, check out the list of gigs and book your tickets below! Check out the a teaser from Daisy's live performance at the Zombie Shack in Manchester below!</p>
+        </span>             
+    </div>
+    </div>
+  </div>
+  <div class="ms-lg-5 ms-1  w-100 row" id="upcomingGigsTableRow" style="margin-bottom:2rem">
+    <div class="col-9 col-lg-6 ms-4" id="upcomingGigsTableContainer">
+    <table class="rwd-table w-100" id="gigsTable">
+      <tr>
+        <td data-th="Venue">The Bask</td>
+        <td data-th="City">Stockport</td>
+        <td data-th="Date">4th August</td>
+        <td data-th="Purchase"><a href="https://www.eventbrite.co.uk/e/daisy-valentine-tabula-rasa-ep-launch-tickets-381298091857" target="_blank">Tickets</a></td>
       </tr>
       <tr>
-        <td data-th="Venue">Coming Soon</td>
-        <td data-th="City">Coming Soon</td>
-        <td data-th="Date">Coming Soon</td>
-        <td data-th="Purchase">Coming Soon</td>
+        <td data-th="Venue">Pride <i class="fa-solid fa-rainbow"></i></td>
+        <td data-th="City">Manchester</td>
+        <td data-th="Date">27th August</td>
+        <td data-th="Purchase"><a href="https://www.manchesterpride.com/tickets" target="_blank">Tickets</a></td>
+      </tr>
+    </tr>
   </tr>
-        </table>
+  <tr>
+    <td data-th="Venue">Coming Soon</td>
+    <td data-th="City">Coming Soon</td>
+    <td data-th="Date">Coming Soon</td>
+    <td data-th="Purchase">Coming Soon</td>
+</tr>
+<tr>
+  <td data-th="Venue">Coming Soon</td>
+  <td data-th="City">Coming Soon</td>
+  <td data-th="Date">Coming Soon</td>
+  <td data-th="Purchase">Coming Soon</td>
+</tr>
+    </table>
+  </div>
+  <div class="col-lg-4 col-9 ms-4" id="upcomingGigsVideoContainer">
+    <video width="100%" height="240" class="" controls>
+      <source src="./images/ZombieshackCompressed.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  </div>
+  <div class="ms-lg-5 ms-1  w-100 row d-none" id="largeScreenVideoOption">
+    <div class="col-9 col-lg-6 ms-4" id="upcomingGigsVideoContainerLG">
+      <video width="100%" height="240" class="" controls>
+        <source src="./images/ZombieshackCompressed.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       </div>
-
-    </div>
-      </div>  
-
-    </div>
-  </div>
-
-</div>
-
-    </div> 
-  </div>
-</div>
-</div>
+    </div>  
 
 
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -163,12 +167,37 @@
               $('#epLaunchBig').removeClass('d-none');
               $('#epLaunchSmall').addClass('d-none');
               $('#bigNav').removeClass('d-none');             
+              $(".upcomingGigs1stRow").addClass("upcomingGigs1stRowLG")
+              $(".upcomingGigs1stRow").removeClass("upcomingGigs1stRowSM")
+              $("#upcomingGigs1stRowContainer").removeClass("col-9 ms-4")
+              $("#upcomingGigs1stRowContainer").addClass("col-11")
+              $("#upcomingGigsTableContainer").removeClass("col-9 ms-4")
+              $("#upcomingGigsTableContainer").addClass("col-11")
+              $("#upcomingGigsVideoContainer").removeClass("col-9 ms-4")
+              $("#upcomingGigsVideoContainer").addClass("col-11")
+              $("#upcomingGigsTableRow").removeClass("ms-4")
 
             } else {
               $('#epLaunchBig').addClass('d-none');
               $('#epLaunchSmall').removeClass('d-none');
               $('#bigNav').addClass('d-none');             
               $(".youtubeVideo").addClass('smallScreenMarginTop')
+              $(".upcomingGigs1stRow").removeClass("upcomingGigs1stRowLG")
+              $("#upcomingGigsTableRow").addClass("ms-4")
+              $(".upcomingGigs1stRow").addClass("upcomingGigs1stRowSM")
+              $("#upcomingGigs1stRowContainer").addClass("col-9 ms-4")
+              $("#upcomingGigs1stRowContainer").removeClass("col-11")
+              $("#upcomingGigsTableContainer").addClass("col-9 ms-4")
+              $("#upcomingGigsTableContainer").removeClass("col-11")
+              $("#upcomingGigsVideoContainer").addClass("col-9 ms-4")
+              $("#upcomingGigsVideoContainer").removeClass("col-11")
+            }
+            if($(window).innerHeight() > 802) {
+              $("#upcomingGigsVideoContainer").addClass("d-none")
+              $("#largeScreenVideoOption").removeClass("d-none")
+            } else {
+              $("#upcomingGigsVideoContainer").removeClass("d-none")
+              $("#largeScreenVideoOption").addClass("d-none")
             }
         }
         function tableReact() {
